@@ -20,6 +20,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\Cookbook.Db.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -47,6 +48,31 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EntityTypeConfigurations\CommentConfiguration.cs" />
+    <Compile Include="EntityTypeConfigurations\ConfigurationValues.cs" />
+    <Compile Include="Extensions\EntityTypeConfigurationExtensions.cs" />
+    <Compile Include="EntityTypeConfigurations\FoodConfiguration.cs" />
+    <Compile Include="EntityTypeConfigurations\RecipeHowToConfiguration.cs" />
+    <Compile Include="EntityTypeConfigurations\ImageConfiguration.cs" />
+    <Compile Include="EntityTypeConfigurations\IngredientConfiguration.cs" />
+    <Compile Include="EntityTypeConfigurations\QuantityConfiguration.cs" />
+    <Compile Include="EntityTypeConfigurations\QuantityTypeConfiguration.cs" />
+    <Compile Include="EntityTypeConfigurations\RecipeConfiguration.cs" />
+    <Compile Include="EntityTypeConfigurations\RecipeInfoConfiguration.cs" />
+    <Compile Include="EntityTypeConfigurations\UserConfiguration.cs" />
+    <Compile Include="EntityTypes\Comment.cs" />
+    <Compile Include="EntityTypes\IDbItem.cs" />
+    <Compile Include="EntityTypes\Food.cs" />
+    <Compile Include="EntityTypes\RecipeHowTo.cs" />
+    <Compile Include="EntityTypes\Image.cs" />
+    <Compile Include="EntityTypes\Ingredient.cs" />
+    <Compile Include="EntityTypes\Quantity.cs" />
+    <Compile Include="EntityTypes\QuantityType.cs" />
+    <Compile Include="EntityTypes\Recipe.cs" />
+    <Compile Include="EntityTypes\RecipeInfo.cs" />
+    <Compile Include="EntityTypes\Tag.cs" />
+    <Compile Include="EntityTypes\TagCategory.cs" />
+    <Compile Include="EntityTypes\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -20,6 +20,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\Cookbook.Objects.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -40,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IAppliedTag.cs" />
     <Compile Include="IComment.cs" />
     <Compile Include="IFood.cs" />
     <Compile Include="IImage.cs" />
@@ -51,6 +53,8 @@
     <Compile Include="IRecipeInfo.cs" />
     <Compile Include="ITag.cs" />
     <Compile Include="ITagCategory.cs" />
+    <Compile Include="ITracable.cs" />
+    <Compile Include="ITrackable.cs" />
     <Compile Include="IUser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

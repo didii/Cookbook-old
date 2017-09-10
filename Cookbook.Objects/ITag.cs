@@ -1,13 +1,18 @@
 ﻿using System;
 
 namespace Cookbook.Objects {
-    public interface ITag {
+    /// <summary>
+    ///     A tag belonging to a recipe
+    /// </summary>
+    public interface ITag : ITracable, ITrackable {
+        /// <summary>
+        ///     The name of this tag
+        /// </summary>
         string Name { get; set; }
-        ITagCategory Category { get; set; }
-        DateTime CreatedOn { get; set; }
-        DateTime UpdatedOn { get; set; }
-        IUser CreatedBy { get; set; }
-        IUser UpdatedBy { get; set; }
 
+        /// <summary>
+        ///     The category this tag belongs to
+        /// </summary>
+        ITagCategory Category { get; set; }
     }
 }

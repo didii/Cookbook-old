@@ -1,11 +1,19 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Cookbook.Objects {
-    public interface IImage {
+    /// <summary>
+    ///     An image stored as a byte array
+    /// </summary>
+    public interface IImage : ITracable, ITrackable {
+        /// <summary>
+        ///     Code for the image
+        /// </summary>
         byte[] ByteArray { get; set; }
-        DateTime CreatedOn { get; set; }
-        DateTime UpdatedOn { get; set; }
-        IUser CreatedBy { get; set; }
-        IUser UpdatedBy { get; set; }
+
+        /// <summary>
+        ///     Optional comments about this image
+        /// </summary>
+        ICollection<IComment> Comments { get; set; }
     }
 }
