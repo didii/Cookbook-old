@@ -32,6 +32,33 @@
       <DocumentationSource sourceFile="..\Cookbook.App\Cookbook.App.csproj" />
       <DocumentationSource sourceFile="..\Cookbook.Db\Cookbook.Db.csproj" />
     </DocumentationSources>
+    <SaveComponentCacheCapacity>100</SaveComponentCacheCapacity>
+    <BuildAssemblerVerbosity>OnlyWarningsAndErrors</BuildAssemblerVerbosity>
+    <HelpFileFormat>HtmlHelp1, Website</HelpFileFormat>
+    <IndentHtml>False</IndentHtml>
+    <KeepLogFile>True</KeepLogFile>
+    <DisableCodeBlockComponent>False</DisableCodeBlockComponent>
+    <CleanIntermediates>True</CleanIntermediates>
+    <HelpFileVersion>1.0.0.0</HelpFileVersion>
+    <MaximumGroupParts>2</MaximumGroupParts>
+    <NamespaceGrouping>False</NamespaceGrouping>
+    <SyntaxFilters>C#</SyntaxFilters>
+    <SdkLinkTarget>Blank</SdkLinkTarget>
+    <RootNamespaceContainer>False</RootNamespaceContainer>
+    <PresentationStyle>VS2013</PresentationStyle>
+    <Preliminary>False</Preliminary>
+    <NamingMethod>Guid</NamingMethod>
+    <HelpTitle>A Sandcastle Documented Class Library</HelpTitle>
+    <ContentPlacement>AboveNamespaces</ContentPlacement>
+    <ProjectSummary>This project provides easy and offline access to recipes to be shared amongst family.</ProjectSummary>
+    <NamespaceSummaries>
+      <NamespaceSummaryItem name="Cookbook.Api" isDocumented="True" xmlns="">This exposes the data in the database as a RESTfull API.</NamespaceSummaryItem>
+<NamespaceSummaryItem name="Cookbook.Api.Areas.HelpPage" isDocumented="True" xmlns="" />
+<NamespaceSummaryItem name="Cookbook.Api.Areas.HelpPage.Controllers" isDocumented="True" xmlns="" />
+<NamespaceSummaryItem name="Cookbook.Api.Areas.HelpPage.ModelDescriptions" isDocumented="True" xmlns="" />
+<NamespaceSummaryItem name="Cookbook.Api.Areas.HelpPage.Models" isDocumented="True" xmlns="" />
+<NamespaceSummaryItem name="Cookbook.Objects" isDocumented="True" xmlns="">The list of buisiness objects used in all Cookbook projects</NamespaceSummaryItem></NamespaceSummaries>
+    <VisibleItems>InheritedMembers, InheritedFrameworkMembers, Internals, Protected, ProtectedInternalAsProtected</VisibleItems>
   </PropertyGroup>
   <!-- There are no properties for these groups.  AnyCPU needs to appear in order for Visual Studio to perform
 			 the build.  The others are optional common platform types that may appear. -->
