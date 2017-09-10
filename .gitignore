@@ -259,3 +259,15 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+/Cookbook.Objects/IUser.cs
+/Cookbook.Objects/ITagCategory.cs
+/Cookbook.Objects/ITag.cs
+/Cookbook.Objects/IRecipeInfo.cs
+/Cookbook.Objects/IRecipeHowTo.cs
+/Cookbook.Objects/IRecipe.cs
+/Cookbook.Objects/IQuantityType.cs
+/Cookbook.Objects/IQuantity.cs
+/Cookbook.Objects/IIngredient.cs
+/Cookbook.Objects/IImage.cs
+/Cookbook.Objects/IFood.cs
+/Cookbook.Objects/IComment.cs
